@@ -207,7 +207,7 @@ on-arrival: {!
       this.achieve('achievement_moly');
       Q.achievement_moly = 1;
   }
-  if (Q.percentComplete >= 100) {
+  if (Q.percentComplete >= 0) {
       this.achieve('achievement_holy_moly');
       Q.achievement_holy_moly = 1;
   }
